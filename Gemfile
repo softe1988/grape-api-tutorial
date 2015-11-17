@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
-
+gem 'grape-swagger'
+gem 'grape-active_model_serializers'
+gem 'rack-cors', :require => 'rack/cors'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.13'
 # Use sqlite3 as the database for Active Record
